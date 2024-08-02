@@ -39,9 +39,3 @@ The website is structured into several sections:
 - **Interactive Elements**: Includes animations, buttons, and a contact form for user interaction.
 - **Social Media Links**: Easy access to my social media profiles via icons.
 - **Customizable**: The content, styling, and structure are easily customizable to suit personal preferences or professional requirements.
-
-## How to Use
-
-1. **Clone the Repository**: 
-   ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
