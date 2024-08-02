@@ -21,7 +21,6 @@ This portfolio website is a personal project created to display my skills and ex
 
 - **HTML5**: For the structure of the website.
 - **CSS3**: For styling and layout.
-- **JavaScript**: For interactivity and dynamic content.
 - **Font Awesome**: For icons and social media links.
 
 ## Structure
