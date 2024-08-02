@@ -1,5 +1,5 @@
-# portfolio
-# Mohd Sakib's Portfolio Website
+# Portfolio
+## Mohd Sakib's Portfolio Website
 
 Welcome to the portfolio website of Mohd Sakib, a Java Full Stack Developer. This website showcases Mohd Sakib's skills, education, and experience, and provides a platform for potential clients or employers to get in touch.
 
