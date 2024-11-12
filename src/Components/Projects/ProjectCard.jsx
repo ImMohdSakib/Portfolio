@@ -10,7 +10,7 @@ const ProjectCard = ({ title, main, demoLink, sourceCodeLink }) => {
   const cardRef = useRef(null);
 
   useEffect(() => {
-    // Bidirectional animation with GSAP
+    // Updated GSAP animation with ScrollTrigger
     gsap.fromTo(
       cardRef.current,
       { opacity: 0, y: 50 }, // Initial state
@@ -21,8 +21,9 @@ const ProjectCard = ({ title, main, demoLink, sourceCodeLink }) => {
         ease: "power2.out",
         scrollTrigger: {
           trigger: cardRef.current,
-          start: "top 85%",  // Start animation when in viewport
-          toggleActions: "play reverse play reverse", // Trigger on scroll down and up
+          start: "top 85%", // Start animation when card is 85% in view
+          toggleActions: "play none none none", // Plays only once and remains visible
+          once: true, // Animation won't replay or reset
         },
       }
     );
