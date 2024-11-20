@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: "Trading Web Application",
       main: "A trading web app with real-time data integration for tracking stocks and managing trading actions efficiently.",
-      demoLink: "https://example.com/trading-demo",
+      demoLink: "https://livecryptoview.netlify.app/",
       sourceCodeLink: "https://github.com/username/trading-app",
     },
     {
