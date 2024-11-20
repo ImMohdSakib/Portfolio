@@ -18,17 +18,17 @@ const Projects = () => {
       sourceCodeLink: "https://github.com/username/youtube-clone",
     },
     {
+      title: "Trading Web Application",
+      main: "A trading web app with real-time data integration for tracking stocks and managing trading actions efficiently.",
+      demoLink: "https://livecryptoview.netlify.app/",
+      sourceCodeLink: "https://github.com/ImMohdSakib/cryptocurrency",
+    },
+    {
       title: "Netflix Clone",
       main: "A Netflix clone with a Speech-to-Text application that converts spoken language into text in real-time, supporting multiple languages.",
       demoLink: "https://example.com/netflix-demo",
       sourceCodeLink: "https://github.com/username/netflix-clone",
-    },
-    {
-      title: "Trading Web Application",
-      main: "A trading web app with real-time data integration for tracking stocks and managing trading actions efficiently.",
-      demoLink: "https://livecryptoview.netlify.app/",
-      sourceCodeLink: "https://github.com/username/trading-app",
-    },
+    },    
     {
       title: "E-Commerce Platform",
       main: "An e-commerce platform with dynamic product listings, cart functionality, and user authentication.",
