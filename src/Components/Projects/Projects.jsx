@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "YouTube Clone",
       main: "A YouTube clone designed for seamless video browsing and playback, mimicking the core viewing experience in a familiar layout.",
-      demoLink: "https://example.com/youtube-demo",
+      demoLink: "https://github.com/ImMohdSakib/youtube-clone",
       sourceCodeLink: "https://github.com/ImMohdSakib/youtube-clone",
     },
     {
