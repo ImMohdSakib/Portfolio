@@ -3,27 +3,27 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import bannerImg from "../../assets/photo-C8q0KQHG.png";
 
-// Register ScrollTrigger
+
 gsap.registerPlugin(ScrollTrigger);
 
 const ProjectCard = ({ title, main, demoLink, sourceCodeLink }) => {
   const cardRef = useRef(null);
 
   useEffect(() => {
-    // Updated GSAP animation with ScrollTrigger
+ 
     gsap.fromTo(
       cardRef.current,
-      { opacity: 0, y: 50 }, // Initial state
+      { opacity: 0, y: 50 },
       {
         opacity: 1,
-        y: 0, // Final state
+        y: 0, 
         duration: 1,
         ease: "power2.out",
         scrollTrigger: {
           trigger: cardRef.current,
-          start: "top 85%", // Start animation when card is 85% in view
-          toggleActions: "play none none none", // Plays only once and remains visible
-          once: true, // Animation won't replay or reset
+          start: "top 85%", 
+          toggleActions: "play none none none",
+          once: true,
         },
       }
     );
