@@ -129,10 +129,10 @@ const Skills = () => {
               <SiPostgresql size={24} />
               <span>PostgreSQL</span>
             </div> */}
-            <div className="flex flex-col items-center p-2 rounded-md text-center" style={{ backgroundColor: "#47A248" }}>
+{/*             <div className="flex flex-col items-center p-2 rounded-md text-center" style={{ backgroundColor: "#47A248" }}>
               <SiMongodb size={24} />
               <span>MongoDB</span>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center p-2 rounded-md text-center" style={{ backgroundColor: "#DE3308" }}>
               <SiFirebase size={24} />
               <span>Firebase</span>
